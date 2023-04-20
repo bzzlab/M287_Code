@@ -1,0 +1,106 @@
+/* f */
+body {
+/*??*/
+}
+/* a */
+.city {
+    
+/* Hintergrund-Bild lucern.jpg im Verzeichnis img */
+/*??*/
+    
+/* Keine Wiederholung des Hintergrunds */
+/*??*/
+    background-size: 630px;
+    
+/* Hintergrund-Farbe als rgba angeben */
+/*??*/
+    background-blend-mode: lighten;
+}
+/* b */
+.country {
+    
+/* Hintergrund-Bild switzerland.jpg im Verzeichnis img */
+/*??*/
+    
+/* Keine Wiederholung des Hintergrunds */
+/*??*/
+    background-size: 630px;
+}
+/* c */
+article {
+    font-size: 12pt;
+    
+/* Rahmen-Radius Werte von 0-40 Pixels */
+/*??*/
+    
+/* Box-Schatten
+        Werte von 0-15 Pixels,
+        Grünverlauf->Werte mit Abweichungen erlaubt
+    */
+/*??*/
+/*??*/
+/*??*/
+/*??*/
+/*??*/
+/*??*/
+/*??*/
+    width: 600px;
+    padding: 10px;
+    
+/* Rahmen 5 Pixels, durchgezogene Linie, Dunkelgrün */
+/*??*/
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+/* d */
+.special {
+    text-align: center;
+    position: relative;
+    top: -360px;
+    left: 620px;
+    
+/* Rahmen-Radius 45 Pixels */
+/*??*/
+    
+/* Box-Schatten
+        Werte von 5-15 Pixels,
+        Rotverlauf->Werte mit Abweichungen erlaubt
+    */
+/*??*/
+    width: 200px;
+    padding: 10px;
+    
+/* Rahmen 1 Pixels, durchgezogene Linie, rot */
+/*??*/
+    
+/* Hintergrundfarbe rot */
+/*??*/
+    
+/* Transformation 55° */
+/*??*/
+}
+/* e */
+header, footer {
+    
+/* Rahmen-Radius 45 Pixels */
+/*??*/
+    width: 800px;
+    padding: 10px;
+    
+/* Rahmen 5 Pixels, durchgezogene Linie, grün */
+/*??*/
+    
+/* Hintergrundfarbe hellgrün */
+/*??*/
+    text-align: center;
+}
+footer>a{
+    color: darkgreen;
+}
+header {
+    font-size: 20pt;
+}
+footer {
+    font-size: 9pt;
+}
